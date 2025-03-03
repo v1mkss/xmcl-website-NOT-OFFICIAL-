@@ -139,7 +139,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Voxelum/x-minecraft-launcher" className="text-white/60 hover:text-white transition-colors">
+                <a href="https://github.com/BANSAFAn/xmcl-website-NOT-OFFICIAL-" className="text-white/60 hover:text-white transition-colors">
                   {text.viewSource}
                 </a>
               </li>
