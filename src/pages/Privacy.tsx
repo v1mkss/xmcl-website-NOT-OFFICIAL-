@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { Navbar } from "../components/Navbar.tsx"
+import { Navbar } from "@/components/navbar"; // Updated import path
 import { Footer } from "@/components/Footer";
 
 const Privacy = () => {
