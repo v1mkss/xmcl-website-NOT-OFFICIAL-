@@ -116,6 +116,7 @@ export function DownloadSection() {
         asset.name.endsWith(".AppImage") ||
         asset.name.endsWith(".deb") ||
         asset.name.endsWith(".rpm") ||
+        asset.name.endsWith(".pacman") ||
         asset.name.endsWith(".tar.gz")
       );
     }
@@ -222,6 +223,20 @@ export function DownloadSection() {
             <path d="M20 18h2" />
             <path d="m19.07 10.93-1.41 1.41" />
             <path d="M22 22H2" />
+            <path d="m8 22 4-10 4 10" />
+          </svg>
+        );
+      }  else if (asset.name.endsWith(".pacman")) {
+        title = "Pacman";
+        description = "For Arch Linux-based distributions";
+        icon = (
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
+            <path d="M12 2v8" />
+            <path d="m4.93 10.93 1.41 1.41" />
+            <path d="M2 18h2" />
+            <path d="M20 18h2" />
+            <path d="m19.07 10.93-1.41 1.41" />
+            <path d="M22 22H2" /> 
             <path d="m8 22 4-10 4 10" />
           </svg>
         );
